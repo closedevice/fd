@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sbbic.com.sharepaneldemo.MainActivity"
+    >
+
+    <Button
+        android:id="@+id/btn_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示默认分享栏"/>
+
+    <Button
+        android:id="@+id/btn_extend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btn_default"
+        android:text="显示扩展分享栏"/>
+
+    <!--<sbbic.com.sharepaneldemo.indicator.FixedIndicatorView-->
+    <!--android:id="@+id/tab_indicator"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!-- <sbbic.com.sharepaneldemo.indicator.ScrollIndicatorView
+         android:id="@+id/moretab_indicator"
+         android:layout_width="match_parent"
+         android:layout_height="80dp" />-->
+
+
+</RelativeLayout>
